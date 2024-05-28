@@ -39,7 +39,7 @@
       <button class="btn btn-primary" onclick="playAudio(this)" type="button">Play Music</button>
       <input type="range" id="volume-slider">
       <a class="navbar-brand" href="about.html">About</a>
-      <a class="navbar-brand" href="#">Play Game</a>
+      <a class="navbar-brand" href="#game">Play Game</a>
       <a class="navbar-brand" href="contributors.html">Contributors</a>
       <button class="btn btn-info" onclick="myFunction()">Dark Mode</button>
     </nav>
@@ -90,7 +90,7 @@
             You also have to watch where the computer puts its O. That could change what you do next. If the computer gets two Os in a row, you have to put your next X in the last empty square in that row, or the computer will win. You are forced to play in a particular square or lose the game.
 
             If you always pay attention and look ahead, you'll never lose a game of Tic-Tac-Toe. You may not win, but at least you'll tie.</p>
-            <table>
+            <table id="game">
               <tr>
                 <th><button type="button" class="player1-btn start-btn" name="button" onclick="singlePlayer()">Single Player</button></th>
                 <th><button type="button" class="player2-btn start-btn" name="button" onclick="twoPlayer()">2 Players</button></th>
